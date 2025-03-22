@@ -1,0 +1,165 @@
+body {
+    background-color: #080808;
+    color: #f3f3f3;
+    font-family: "Trebuchet MS", Arial, "Sans Serif";
+    font-size: 12px;
+    text-align: center;
+}
+
+a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 12px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 8px;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 6px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.mainlink { /*used to emulate a list of links instead of using ul, see country index pages*/
+    display: block;
+    font-size: 24px;
+}
+
+.pic-container div {
+    border: none;
+    display: inline-block;
+    padding: 0px;
+    position: relative; /*so spanish star images work correctly*/
+}
+
+/*.pic-divider {
+    width: 1260px;
+    height: 80px;
+}*/
+
+.pic-70 {
+    width: 70px;
+    margin: 8px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-84 {
+    width: 84px;
+    margin: 10px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-90 {
+    width: 90px;
+    margin: 12px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-105 {
+    width: 105px;
+    margin: 15px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-114 { /*doesn't evenly divide into 1260, but works with tweaks*/
+    width: 114.5px;
+    margin: 18px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-126 {
+    width: 126px;
+    margin: 21px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-140 {
+    width: 140px;
+    margin: 24px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-157 { /*doesn't evenly divide into 1260, but works with tweaks*/
+    width: 157.5px;
+    margin: 28px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-180 {
+    width: 180px;
+    margin: 32px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-210 {
+    width: 210px;
+    margin: 36px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-252 {
+    width: 252px;
+    margin: 40px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-315 {
+    width: 315px;
+    font-size: 16px;
+    margin: 44px -2px; /*not sure why this had to be negative to work*/
+}
+
+.pic-420 {
+    width: 420px;
+    font-size: 16px;
+    margin: 48px -2px; /*not sure why this had to be negative to work*/
+}
+
+.fraction {
+    letter-spacing: -2px;
+}
+
+.indian-mm {
+    font-size: 10px;
+}
+
+.pic-315 .indian-mm {
+    font-size: 14px;
+}
+
+.small {
+    font-size: 7px;
+}
+
+.small-h2 {
+    font-size: 24px;
+}
+
+.spanish-star {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid white;
+}
+
+.sublink {
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#container {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1260px; /*1260 is highly composite, meaning more factors than any lower numbers*/
+}
+
+#container-wide {
+    margin: 0px 0px 0px -8px;
+    padding: 0px;
+    width: 2520px; /*1260 is highly composite, meaning more factors than any lower numbers*/
+}
