@@ -35,6 +35,32 @@ p {
     font-size: 16px;
 }
 
+.home-container {
+    column-count: 3;
+}
+
+.home-container div {
+    display: block;
+    margin: 0px;
+    font-size: 28px;
+    text-align:left;
+    vertical-align: middle;
+}
+
+.home-container img {
+    width: 32px;
+    height: 32px;
+    margin: 0px 8px 0px 0px;
+    padding: 0px 0px 7px 0px;
+    vertical-align: middle;
+}
+
+.home-container .small {
+    font-size: 24px;
+    padding: 0px 0px 6px 0px;
+    vertical-align: middle;
+}
+
 .mainlink { /*used to emulate a list of links instead of using ul, see country index pages*/
     display: block;
     font-size: 24px;
